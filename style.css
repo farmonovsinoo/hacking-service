@@ -208,7 +208,7 @@ body {
     word-spacing: 2px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     body {
         background-image: url("2308532.jpg");
         background-size: auto 600px;
