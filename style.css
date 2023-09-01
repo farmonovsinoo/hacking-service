@@ -211,7 +211,7 @@ body {
 @media screen and (max-width: 320px) {
     body {
         background-image: url("2308532.jpg");
-        background-size: auto 320px;
+        background-size: cover;
         background-position: center;
     }
 }
