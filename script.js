@@ -4,9 +4,11 @@ const services = document.querySelector('.services'),
     header = document.querySelector('.header'),
     home = document.querySelector('.home'),
     active = document.querySelector('.active'),
-    info = document.querySelector('.info');
+    info = document.querySelector('.info'),
+    body = document.getElementsByTagName('body');
 
 services.onclick = () => {
+    body.style.backgraound = '#081b29';
     info.style.visibility = 'initial';
     active.style.color = '#ededed'
     services.style.color = '#00abf0';
