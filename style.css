@@ -211,6 +211,6 @@ body {
 @media screen and (max-width: 600px) {
     body {
         background-image: url("photo_2023.jpg");
-        background-size: auto 800px;
+        background-size: auto 600px;
     }
 }
