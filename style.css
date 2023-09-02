@@ -193,7 +193,7 @@ body {
 } 
 
 .info {
-    visibility: hidden;
+    visibility: initial;
     font-family: 'Hack', monospace;
     max-width: 500px;
     transform: translate(400px, -100px);
