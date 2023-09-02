@@ -213,15 +213,18 @@ body {
 
     .header {
         position: initial;
+        border: 5px solid white;
     }
 
     .home {
         font-size: 50px;
         display: flex;
+        border: 5px solid white;
     }
 
     .info {
         display: inline;
+        border: 5px solid yellow;
     }
 
     .logo {
