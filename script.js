@@ -7,7 +7,7 @@ const services = document.querySelector('.services'),
     info = document.querySelector('.info'),
     body = document.getElementsByTagName('body'),
     homeContent = document.querySelector('.home-content'),
-    logo = document.querySelector('.logo'),
+    logo = document.querySelector('.logo');
 
 services.onclick = () => {
     info.style.visibility = 'initial';
