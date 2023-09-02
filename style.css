@@ -220,12 +220,6 @@ body {
         display: flex;
     }
 
-    .services:focus {
-        .home {
-            display: inline;
-        }
-    }
-
     .info {
         display: inline;
     }
