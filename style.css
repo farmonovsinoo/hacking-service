@@ -206,7 +206,7 @@ body {
 @media screen and (max-width: 420px) {
     body {
         background: url("anonymous-2821433_640.jpg");
-        background-size: 420px 600px;
+        background-size: cover 420px;
         background-position: center;
         background-repeat: no-repeat;
     }
