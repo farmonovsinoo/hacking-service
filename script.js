@@ -12,19 +12,6 @@ const services = document.querySelector('.services'),
 let viewport = window.innerWidth;
 
 services.onclick = () => {
-    info.style.visibility = 'initial';
-    active.style.color = '#ededed';
-    services.style.color = '#00abf0';
-    contact.style.color = '#ededed';
-    about.style.color = '#ededed';
-    header.style.visibility = 'hidden';
-    services.style.visibility = 'initial';
-    home.style.visibility = 'hidden';
-    home.style.display = 'inline';
-    contact.style.visibility = 'initial';
-    about.style.visibility = 'initial';
-    active.style.visibility = 'initial';
-    logo.style.visibility = 'initial';
     if (viewport == 420) {
         info.style.visibility = 'initial';
         active.style.color = '#ededed';
@@ -40,6 +27,21 @@ services.onclick = () => {
         active.style.visibility = 'initial';
         logo.style.visibility = 'initial';
         homeContent.style.transform = 'translateY(-100px)';
+    }
+    else {
+        info.style.visibility = 'initial';
+        active.style.color = '#ededed';
+        services.style.color = '#00abf0';
+        contact.style.color = '#ededed';
+        about.style.color = '#ededed';
+        header.style.visibility = 'hidden';
+        services.style.visibility = 'initial';
+        home.style.visibility = 'hidden';
+        home.style.display = 'inline';
+        contact.style.visibility = 'initial';
+        about.style.visibility = 'initial';
+        active.style.visibility = 'initial';
+        logo.style.visibility = 'initial';
     }
 }
 
