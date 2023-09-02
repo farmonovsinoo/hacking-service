@@ -25,7 +25,7 @@ services.onclick = () => {
     about.style.visibility = 'initial';
     active.style.visibility = 'initial';
     logo.style.visibility = 'initial';
-    if (viewport === 420) {
+    if (viewport == 420) {
         info.style.visibility = 'initial';
         active.style.color = '#ededed';
         services.style.color = '#00abf0';
