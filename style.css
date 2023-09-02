@@ -190,13 +190,7 @@ body {
     background-image: url("2308532.jpg");
     background-size: auto 800px;
     background-attachment: fixed;
-}
-
-@font-face {
-    font-family: 'VT323';
-    src: url('fonts/vt323.ttf') format('truetype');
-}
-  
+} 
 
 .info {
     visibility: hidden;
