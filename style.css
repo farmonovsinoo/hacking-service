@@ -213,6 +213,7 @@ body {
 
     .header {
         position: initial;
+        display: inline;
     }
 
     .home {
