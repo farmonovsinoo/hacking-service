@@ -223,4 +223,8 @@ body {
     .info {
         display: inline;
     }
+
+    .logo {
+        margin-right: 20px;
+    }
 }
