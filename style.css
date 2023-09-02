@@ -213,4 +213,8 @@ body {
     .home {
         font-size: 100px;
     }
+
+    .header {
+        font-size: 20px;
+    }
 }
