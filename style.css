@@ -213,6 +213,7 @@ body {
 
     .header {
         justify-content: space-between;
+        position: initial;
     }
     
     .navbar {
