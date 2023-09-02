@@ -6,7 +6,8 @@ const services = document.querySelector('.services'),
     active = document.querySelector('.active'),
     info = document.querySelector('.info'),
     body = document.getElementsByTagName('body'),
-    homeContent = document.querySelector('.home-content');
+    homeContent = document.querySelector('.home-content'),
+    logo = document.querySelector('.logo'),
 
 let viewport = window.innerWidth;
 
@@ -23,6 +24,7 @@ services.onclick = () => {
     contact.style.visibility = 'initial';
     about.style.visibility = 'initial';
     active.style.visibility = 'initial';
+    logo.style.visibility = 'initial';
     if (viewport === 420) {
         info.style.visibility = 'initial';
         active.style.color = '#ededed';
@@ -36,6 +38,7 @@ services.onclick = () => {
         contact.style.visibility = 'initial';
         about.style.visibility = 'initial';
         active.style.visibility = 'initial';
+        logo.style.visibility = 'initial';
         homeContent.style.transform = 'translateY(-100px)';
     }
 }
@@ -53,4 +56,5 @@ active.onclick = () => {
     active.style.visibility = 'initial';
     contact.style.visibility = 'initial';
     about.style.visibility = 'initial';
+    logo.style.visibility = 'initial';
 }
