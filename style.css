@@ -211,8 +211,8 @@ body {
         background-repeat: no-repeat;
     }
     
-    .header {
-        justify-content: space-between;
+    .navbar {
+        float: right;
     }
 
     .home {
