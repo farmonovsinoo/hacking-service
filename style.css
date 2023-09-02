@@ -223,4 +223,8 @@ body {
     .info {
         display: inline;
     }
+
+    .home-content .btn-box {
+        justify-content: start;
+    }
 }
