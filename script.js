@@ -7,6 +7,8 @@ const services = document.querySelector('.services'),
     info = document.querySelector('.info'),
     body = document.getElementsByTagName('body');
 
+let viewport = window.innerWidth;
+
 services.onclick = () => {
     info.style.visibility = 'initial';
     active.style.color = '#ededed';
@@ -20,6 +22,20 @@ services.onclick = () => {
     contact.style.visibility = 'initial';
     about.style.visibility = 'initial';
     active.style.visibility = 'initial';
+    if (viewport < 420) {
+        info.style.visibility = 'initial';
+        active.style.color = '#ededed';
+        services.style.color = '#00abf0';
+        contact.style.color = '#ededed';
+        about.style.color = '#ededed';
+        header.style.visibility = 'hidden';
+        services.style.visibility = 'initial';
+        home.style.visibility = 'hidden';
+        home.style.display = 'inline';
+        contact.style.visibility = 'initial';
+        about.style.visibility = 'initial';
+        active.style.visibility = 'initial';
+    }
 }
 
 active.onclick = () => {
