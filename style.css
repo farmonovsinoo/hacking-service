@@ -213,11 +213,11 @@ body {
 
     .header {
         position: initial;
-        display: inline;
     }
 
     .home {
         font-size: 50px;
+        display: flex;
     }
 
     .info {
