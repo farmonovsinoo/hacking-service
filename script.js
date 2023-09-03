@@ -34,7 +34,8 @@ services.onclick = () => {
 }
 
 active.onclick = () => {
-    bigtext.textContent = '';
+    home.style.visibility = 'initial';
+    bigtext.textContent = 'All HAcking Services';
     text.textContent = 'Black-Hat-Hacker';
     info.style.visibility = 'hidden';
     header.style.visibility = 'initial';
