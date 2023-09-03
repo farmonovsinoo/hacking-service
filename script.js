@@ -10,6 +10,7 @@ const services = document.querySelector('.services'),
     logo = document.querySelector('.logo');
 
 services.onclick = () => {
+    home.textContent = '';
     info.style.visibility = 'initial';
     active.style.color = '#ededed';
     services.style.color = '#00abf0';
@@ -17,8 +18,6 @@ services.onclick = () => {
     about.style.color = '#ededed';
     header.style.visibility = 'hidden';
     services.style.visibility = 'initial';
-    home.style.visibility = 'hidden';
-    home.style.display = 'inline';
     contact.style.visibility = 'initial';
     about.style.visibility = 'initial';
     active.style.visibility = 'initial';
