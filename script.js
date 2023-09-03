@@ -8,11 +8,12 @@ const services = document.querySelector('.services'),
     body = document.getElementsByTagName('body'),
     homeContent = document.querySelector('.home-content'),
     logo = document.querySelector('.logo'),
-    text = document.querySelector(".text");
+    text = document.querySelector(".text")
+    bigtext = document.querySelector(".bigtext");
 
 services.onclick = () => {
-    home.style.visibility = 'hidden';
-    text.textContent = 'Social media hacking ( Not including Emails) :- $100';
+    bigtext.textContent = 'Social media hacking ( Not including Emails) :- $100';
+    text.textContent = '#social_media_hack';
     text.style.visibility = 'initial';
     text.style.fontSize = '20px';
     info.style.visibility = 'initial';
