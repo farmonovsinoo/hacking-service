@@ -18,6 +18,7 @@ services.onclick = () => {
     text.style.visibility = 'initial';
     text.style.fontSize = '20px';
     text.style.color = 'white';
+    bigtext.style.visibility = 'initial';
     home.style.visibility = 'hidden';
     info.style.visibility = 'initial';
     active.style.color = '#ededed';
