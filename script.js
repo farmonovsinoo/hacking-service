@@ -7,10 +7,11 @@ const services = document.querySelector('.services'),
     info = document.querySelector('.info'),
     body = document.getElementsByTagName('body'),
     homeContent = document.querySelector('.home-content'),
-    logo = document.querySelector('.logo');
+    logo = document.querySelector('.logo'),
+    text = document.querySelector(".text");
 
 services.onclick = () => {
-    home.textContent = 'Social media hacking ( Not including Emails) :- $100';
+    text.textContent = 'Social media hacking ( Not including Emails) :- $100';
     info.style.visibility = 'initial';
     active.style.color = '#ededed';
     services.style.color = '#00abf0';
@@ -25,6 +26,7 @@ services.onclick = () => {
 }
 
 active.onclick = () => {
+    text.textContent = 'Black-Hat-Hacker';
     info.style.visibility = 'hidden';
     header.style.visibility = 'initial';
     home.style.visibility = 'initial';
