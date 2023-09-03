@@ -14,6 +14,7 @@ services.onclick = () => {
     home.style.visibility = 'hidden';
     text.textContent = 'Social media hacking ( Not including Emails) :- $100';
     text.style.visibility = 'initial';
+    text.style.fontSize = '20px';
     info.style.visibility = 'initial';
     active.style.color = '#ededed';
     services.style.color = '#00abf0';
