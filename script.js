@@ -13,6 +13,7 @@ const services = document.querySelector('.services'),
 services.onclick = () => {
     home.style.visibility = 'hidden';
     text.textContent = 'Social media hacking ( Not including Emails) :- $100';
+    text.style.visibility = 'initial';
     info.style.visibility = 'initial';
     active.style.color = '#ededed';
     services.style.color = '#00abf0';
