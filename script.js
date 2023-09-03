@@ -34,7 +34,10 @@ services.onclick = () => {
 }
 
 active.onclick = () => {
+    bigtext.style.fontSize = '50px';
+    text.style.fontSize = '30px';
     home.style.visibility = 'initial';
+    bigtext.style.visibility = 'initial';
     bigtext.textContent = 'All HAcking Services';
     text.textContent = 'Black-Hat-Hacker';
     info.style.visibility = 'hidden';
