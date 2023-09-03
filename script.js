@@ -13,7 +13,7 @@ const services = document.querySelector('.services'),
 
 services.onclick = () => {
     bigtext.style.fontSize = '20px';
-    bigtext.textContent = 'Social media hacking ( Not including Emails) :- $100';
+    bigtext.textContent = 'Social media hacking ( Not including Emails) :- $100         #social_media_hack';
     text.textContent = '#social_media_hack';
     text.style.visibility = 'initial';
     text.style.fontSize = '20px';
