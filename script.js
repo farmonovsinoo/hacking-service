@@ -17,6 +17,7 @@ services.onclick = () => {
     text.textContent = '#social_media_hack';
     text.style.visibility = 'initial';
     text.style.fontSize = '20px';
+    text.style.color = 'white';
     info.style.visibility = 'initial';
     active.style.color = '#ededed';
     services.style.color = '#00abf0';
