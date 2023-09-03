@@ -34,7 +34,7 @@ services.onclick = () => {
 }
 
 active.onclick = () => {
-    bigtext.style.fontSize = '54px';
+    bigtext.style.fontSize = '55px';
     text.style.fontSize = '33px';
     home.style.visibility = 'initial';
     bigtext.style.visibility = 'initial';
